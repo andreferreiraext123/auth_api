@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set "VIRTUAL_ENV=C:\Users\andre.matos_ipnet\Desktop\fastapi-auth-project\.venv"
+=======
+set "VIRTUAL_ENV=C:\Users\andre.matos_ipnet\auth_api\.venv"
+>>>>>>> 64e59240bdcb2adcc90530ee11615532b2bb0f0e
 
 if not defined PROMPT set PROMPT=$P$G
 

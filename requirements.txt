@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FastAPI
 uvicorn
 sqlalchemy
@@ -7,3 +8,10 @@ passlib
 python-dotenv
 pytest
 httpx
+=======
+fastapi[standard]
+uvicorn
+sqlalchemy
+pyjwt
+passlib[bcrypt]
+>>>>>>> 64e59240bdcb2adcc90530ee11615532b2bb0f0e

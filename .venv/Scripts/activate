@@ -40,10 +40,17 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
+<<<<<<< HEAD
     export VIRTUAL_ENV=$(cygpath 'C:\Users\andre.matos_ipnet\Desktop\fastapi-auth-project\.venv')
 else
     # use the path as-is
     export VIRTUAL_ENV='C:\Users\andre.matos_ipnet\Desktop\fastapi-auth-project\.venv'
+=======
+    export VIRTUAL_ENV=$(cygpath 'C:\Users\andre.matos_ipnet\auth_api\.venv')
+else
+    # use the path as-is
+    export VIRTUAL_ENV='C:\Users\andre.matos_ipnet\auth_api\.venv'
+>>>>>>> 64e59240bdcb2adcc90530ee11615532b2bb0f0e
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

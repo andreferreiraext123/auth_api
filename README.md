@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# FastAPI Authentication Project
+# FastAPI Authentication Project (Stoped for while)
 
 This project is a reusable FastAPI application for user authentication. It includes essential features such as user registration, login, and management of user data. The application is structured to promote modularity and maintainability.
 
